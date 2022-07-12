@@ -1,0 +1,358 @@
+package com.project.belajarmengaji;
+
+import java.util.Random;
+
+public class EssayBenda {
+    public String soalessayBenda[]={
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?",
+            "Apakah \n Terjemahan \n Dari Gambar di atas ?"
+
+
+
+
+
+    };
+
+
+    private String listgambarsoalBenda[] = {
+            "soal_ac",
+            "soal_bak_mandi",
+            "soal_bantal",
+            "soal_bantal_guling",
+            "soal_blender",
+            "soal_buku",
+            "soal_buku_absen",
+            "soal_buku_tulis",
+            "soal_cermin",
+            "soal_dasi",
+            "soal_dispenser",
+            "soal_ember",
+            "soal_gantungan_baju",
+            "soal_garpu",
+            "soal_gas",
+            "soal_gayung",
+            "soal_gelas",
+            "soal_globe",
+            "soal_gordyn",
+            "soal_gunting",
+            "soal_handphone",
+            "soal_handuk",
+            "soal_ijazah",
+            "soal_ikat_pinggang",
+            "soal_jadwal_belajar",
+            "soal_jam",
+            "soal_jemuran",
+            "soal_jendela",
+            "soal_jilbab",
+            "soal_kabel",
+            "soal_kain_lap",
+            "soal_kaos_kaki",
+            "soal_karpet",
+            "soal_kasur",
+            "soal_kemeja",
+            "soal_kemoceng",
+            "soal_keyboard",
+            "soal_kipas_angin",
+            "soal_kompor",
+            "soal_komputer",
+            "soal_kulkas",
+            "soal_kunci",
+            "soal_lampu",
+            "soal_lemari",
+            "soal_mading",
+            "soal_mangkuk",
+            "soal_meja",
+            "soal_mesin_cuci",
+            "soal_microwave",
+            "soal_monitor",
+            "soal_mouse",
+            "soal_pagar",
+            "soal_panci",
+            "soal_papan_tulis",
+            "soal_parutan",
+            "soal_pasta_gigi",
+            "soal_pel",
+            "soal_pengganti",
+            "soal_penggorengan",
+            "soal_penghapus",
+            "soal_pensil_warna",
+            "soal_pensil",
+            "soal_pintu",
+            "soal_piring",
+            "soal_pisau",
+            "soal_poster",
+            "soal_printer",
+            "soal_proyektor",
+            "soal_pulpen",
+            "soal_rak_piring",
+            "soal_ranjang",
+            "soal_raport",
+            "soal_rautan_pensil",
+            "soal_rice_cooker",
+            "soal_rok",
+            "soal_sabun",
+            "soal_saklar",
+            "soal_sampo",
+            "soal_sapu",
+            "soal_selimut",
+            "soal_sendok",
+            "soal_sepatu",
+            "soal_setrika",
+            "soal_sikat_gigi",
+            "soal_sisir",
+            "soal_sofa",
+            "soal_spatula",
+            "soal_spidol",
+            "soal_sprei",
+            "soal_stop_kontak",
+            "soal_suntikan",
+            "soal_tangga",
+            "soal_tempat_sampah",
+            "soal_kopi",
+            "soal_televisi",
+            "soal_vacuum_cleaner",
+            "soal_vas_bunga"
+    };
+
+
+    private String listjawabanBenda[] = {
+            "ac",
+            "bak mandi",
+            "bantal",
+            "bantal guling",
+            "blender",
+            "buku",
+            "buku absen",
+            "buku tulis",
+            "cermin",
+            "dasi",
+            "dispenser",
+            "ember",
+            "gantungan baju",
+            "garpu",
+            "gas",
+            "gayung",
+            "gelas",
+            "globe",
+            "gordyn",
+            "gunting",
+            "handphone",
+            "handuk",
+            "ijazah",
+            "ikat pinggang",
+            "jadwal belajar",
+            "jam",
+            "jemuran",
+            "jendela",
+            "jilbab",
+            "kabel",
+            "kain lap",
+            "kaos kaki",
+            "karpet",
+            "kasur",
+            "kemeja",
+            "kemoceng",
+            "keyboard",
+            "kipas angin",
+            "kompor",
+            "komputer",
+            "kulkas",
+            "kunci",
+            "lampu",
+            "lemari",
+            "mading",
+            "mangkuk",
+            "meja",
+            "mesin cuci",
+            "microwave",
+            "monitor",
+            "mouse",
+            "pagar",
+            "panci",
+            "papan tulis",
+            "parutan",
+            "pasta gigi",
+            "pel",
+            "pengganti",
+            "penggorengan",
+            "penghapus",
+            "pensil warna",
+            "pensil",
+            "pintu",
+            "piring",
+            "pisau",
+            "poster",
+            "printer",
+            "proyektor",
+            "pulpen",
+            "rak piring",
+            "ranjang",
+            "raport",
+            "rautan pensil",
+            "rice cooker",
+            "rok",
+            "sabun",
+            "saklar",
+            "sampo",
+            "sapu",
+            "selimut",
+            "sendok",
+            "sepatu",
+            "setrika",
+            "sikat gigi",
+            "sisir",
+            "sofa",
+            "spatula",
+            "spidol",
+            "sprei",
+            "stop kontak",
+            "suntikan",
+            "tangga",
+            "tempat sampah",
+            "kopi",
+            "televisi",
+            "vacuum cleaner",
+            "vas bunga"
+
+    };
+
+    public String[] getListgambarsoalBenda(){
+        return listgambarsoalBenda;
+    }
+
+    public String[] getListjawabanBenda(){
+        return listjawabanBenda;
+    }
+
+    public String getrandomBenda(int i) {
+        String random = listjawabanBenda[new Random(i).nextInt(listjawabanBenda.length)];
+        return random;
+    }
+
+    public String getrandomsoalBenda(int i) {
+        String random = soalessayBenda[new Random(i).nextInt(listgambarsoalBenda.length)];
+        return random;
+    }
+
+    public String getrandomgambarBenda(int i) {
+        String random = listgambarsoalBenda[new Random(i).nextInt(listgambarsoalBenda.length)];
+        return random;
+    }
+
+    public String getsoalBenda(int i){
+        return soalessayBenda[i];
+    }
+
+    public String getGambarSoal(int i) {
+        String gambar = listgambarsoalBenda[i];
+        return gambar;
+    }
+
+    public String getjawaban(int i) {
+        return listjawabanBenda[i];
+
+    }
+
+    public int getjumlah() {
+        return soalessayBenda.length;
+    }
+
+    public int getjumlah2() {
+        return listjawabanBenda.length;
+    }
+}

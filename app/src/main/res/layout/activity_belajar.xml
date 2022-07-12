@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context=".BelajarActivity">
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/belajar_hewan"
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:background="@drawable/belajar_hewan" />
+
+        <ImageButton
+            android:id="@+id/belajar_kata_benda"
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:background="@drawable/belajar_kata_benda" />
+
+        <ImageButton
+            android:id="@+id/belajar_kata_kerja"
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:background="@drawable/belajar_kata_kerja" />
+
+        <ImageButton
+            android:id="@+id/belajar_kata_sifat"
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:background="@drawable/belajar_kata_sifat" />
+
+        <ImageButton
+            android:id="@+id/belajar_makanan_minuman"
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:background="@drawable/belajar_makanan_minuman" />
+
+    </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/buttonBack" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/exit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/buttonExit" />
+
+    <TextView
+        android:id="@+id/nis_menu_belajar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIS Anda : "/>
+
+</RelativeLayout>

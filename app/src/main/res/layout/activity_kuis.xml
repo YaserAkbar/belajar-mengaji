@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_kuis"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".KuisActivity">
+
+    <ImageButton
+        android:id="@+id/pilgan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:background="@drawable/pilihan_ganda1"/>
+
+    <ImageButton
+        android:id="@+id/essai"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="355dp"
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:background="@drawable/essay1"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/buttonBack" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/exit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/buttonExit" />
+
+    <TextView
+        android:id="@+id/nis_menu_kuis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIS Anda : "/>
+
+
+
+</RelativeLayout>

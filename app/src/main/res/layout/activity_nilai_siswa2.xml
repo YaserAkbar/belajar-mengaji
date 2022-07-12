@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#008577"
+    tools:context=".NilaiSiswa">
+
+    <ImageView
+        android:id="@+id/gambar_nilai"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/nilai_siswa"/>
+
+    <ImageButton
+        android:id="@+id/btn_nilai_pg"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/nilai_pg"
+        android:layout_below="@+id/gambar_nilai"/>
+
+    <ImageButton
+        android:id="@+id/btn_nilai_essay"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/nilai_essay"
+        android:layout_below="@+id/btn_nilai_pg"/>
+
+    <ImageButton
+        android:id="@+id/btn_back_nilai"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/back"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

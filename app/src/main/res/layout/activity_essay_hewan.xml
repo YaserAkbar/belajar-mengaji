@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".EssayHewanActivity">
+
+    <ImageView
+        android:id="@+id/frame_tiga"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/frame_essay" />
+
+    <ImageView
+        android:id="@+id/soalgambaressayHewan"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        />
+    
+    <ImageView
+        android:id="@+id/essaySkor"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/essay_skor"/>
+
+    <TextView
+        android:text="SKOR : "
+        android:id="@+id/skoressayHewan"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:textColor="@color/colorPertanyaan"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:id="@+id/pertanyaanessayHewan"/>
+
+    <ImageView
+        android:id="@+id/essayText"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="575dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/essay_text"/>
+
+    <EditText
+        android:id="@+id/txtessayindonesia"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="570dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:hint="Hasil suara disini...."
+        android:textColorHint="#ffff"/>
+    
+    <ImageButton
+        android:id="@+id/btnJawab"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtessayindonesia"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/essay_jawab" />
+
+    <ImageButton
+        android:id="@+id/btnMic"
+        android:layout_width="100dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtessayindonesia"
+        android:background="@drawable/icon_mic" />
+
+    <TextView
+        android:id="@+id/nis_menu_kuis_essay_hewan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIS Anda : "/>
+
+</RelativeLayout>

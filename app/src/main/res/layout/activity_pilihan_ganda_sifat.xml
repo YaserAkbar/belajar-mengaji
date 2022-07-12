@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    tools:context=".PilihanGandaSifatActivity">
+
+    <ImageView
+        android:id="@+id/frame_tiga"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/frame_pink" />
+
+    <ImageButton
+        android:id="@+id/soalsifat"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/soal_amanah"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp">
+
+        <ImageButton
+            android:id="@+id/jawabansifat1"
+            android:layout_width="250dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/jawaban_amanah"
+            />
+
+        <ImageButton
+            android:id="@+id/jawabansifat2"
+            android:layout_width="250dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/jawaban_bagus" />
+
+        <ImageButton
+            android:id="@+id/jawabansifat3"
+            android:layout_width="250dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/jawaban_banyak" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="SKOR : "
+        android:id="@+id/skorSifat"
+        android:textColor="@color/colorSkor"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:text="Apakah \nTerjemahan \nDari Gambar di atas ?"
+        android:textColor="@color/colorPertanyaan"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="285dp"
+        android:id="@+id/pertanyaanSifat" />
+
+    <TextView
+        android:id="@+id/nis_menu_kuis_pilgan_sifat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIS Anda : "/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#008577"
+    tools:context=".Delete">
+
+    <ImageView
+        android:layout_width="390dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/hapus_data_siswa"/>
+
+    <EditText
+        android:id="@+id/nis_siswa_param"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Masukan NIS"/>
+
+    <Button
+        android:backgroundTint="@color/colorAccent"
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus" />
+
+    <Button
+        android:backgroundTint="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Batal"
+        android:id="@+id/btn_batal_hapus"/>
+
+</LinearLayout>

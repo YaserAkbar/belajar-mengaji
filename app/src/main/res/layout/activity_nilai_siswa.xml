@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#008577"
+    tools:context=".NilaiSiswaHewan">
+
+    <ImageView
+        android:id="@+id/gambar_nilai_pg"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/nilai_siswa_pg_hewan"/>
+
+    <LinearLayout
+        android:id="@+id/linear_navigasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_reset"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/kiri"
+            android:layout_width="50sp"
+            android:layout_height="40sp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/panah_kiri"/>
+
+        <Button
+            android:id="@+id/back_hewan"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:backgroundTint="@color/colorAccent"/>
+
+        <ImageButton
+            android:id="@+id/kanan"
+            android:layout_width="50sp"
+            android:layout_height="40sp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/panah_kanan"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Nilai"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerviewNilai"
+        android:layout_below="@+id/gambar_nilai_pg" />
+
+</RelativeLayout>

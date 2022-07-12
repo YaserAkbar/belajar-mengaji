@@ -1,0 +1,238 @@
+package com.project.belajarmengaji;
+
+import java.util.Random;
+
+public class PilganBenda {
+    private int listsoalbenda[] = {
+            R.drawable.soal_ac,
+            R.drawable.soal_bak_mandi,
+            R.drawable.soal_bantal,
+            R.drawable.soal_bantal_guling,
+            R.drawable.soal_blender,
+            R.drawable.soal_buku,
+            R.drawable.soal_buku_absen,
+            R.drawable.soal_buku_tulis,
+            R.drawable.soal_cermin,
+            R.drawable.soal_dasi,
+            R.drawable.soal_dispenser,
+            R.drawable.soal_ember,
+            R.drawable.soal_gantungan_baju,
+            R.drawable.soal_garpu,
+            R.drawable.soal_gas,
+            R.drawable.soal_gayung,
+            R.drawable.soal_gelas,
+            R.drawable.soal_globe,
+            R.drawable.soal_gordyn,
+            R.drawable.soal_gunting,
+            R.drawable.soal_handphone,
+            R.drawable.soal_handuk,
+            R.drawable.soal_ijazah,
+            R.drawable.soal_ikat_pinggang,
+            R.drawable.soal_jadwal_belajar,
+            R.drawable.soal_jam,
+            R.drawable.soal_jemuran,
+            R.drawable.soal_jendela,
+            R.drawable.soal_jilbab,
+            R.drawable.soal_kabel,
+            R.drawable.soal_kain_lap,
+            R.drawable.soal_kaos_kaki,
+            R.drawable.soal_karpet,
+            R.drawable.soal_kasur,
+            R.drawable.soal_kemeja,
+            R.drawable.soal_kemoceng,
+            R.drawable.soal_keyboard,
+            R.drawable.soal_kipas_angin,
+            R.drawable.soal_kompor,
+            R.drawable.soal_komputer,
+            R.drawable.soal_kulkas,
+            R.drawable.soal_kunci,
+            R.drawable.soal_lampu,
+            R.drawable.soal_lemari,
+            R.drawable.soal_mading,
+            R.drawable.soal_mangkuk,
+            R.drawable.soal_meja,
+            R.drawable.soal_mesin_cuci,
+            R.drawable.soal_microwave,
+            R.drawable.soal_monitor,
+            R.drawable.soal_mouse,
+            R.drawable.soal_pagar,
+            R.drawable.soal_panci,
+            R.drawable.soal_papan_tulis,
+            R.drawable.soal_parutan,
+            R.drawable.soal_pasta_gigi,
+            R.drawable.soal_pel,
+            R.drawable.soal_penggaris,
+            R.drawable.soal_penggorengan,
+            R.drawable.soal_penghapus,
+            R.drawable.soal_pensil,
+            R.drawable.soal_pensil_warna,
+            R.drawable.soal_pintu,
+            R.drawable.soal_piring,
+            R.drawable.soal_pisau,
+            R.drawable.soal_poster,
+            R.drawable.soal_printer,
+            R.drawable.soal_proyektor,
+            R.drawable.soal_pulpen,
+            R.drawable.soal_rak_piring,
+            R.drawable.soal_ranjang,
+            R.drawable.soal_raport,
+            R.drawable.soal_rautan_pensil,
+            R.drawable.soal_rice_cooker,
+            R.drawable.soal_rok,
+            R.drawable.soal_sabun,
+            R.drawable.soal_saklar,
+            R.drawable.soal_sampo,
+            R.drawable.soal_sapu,
+            R.drawable.soal_selimut,
+            R.drawable.soal_sendok,
+            R.drawable.soal_sepatu,
+            R.drawable.soal_setrika,
+            R.drawable.soal_sikat_gigi,
+            R.drawable.soal_sisir,
+            R.drawable.soal_sofa,
+            R.drawable.soal_spatula,
+            R.drawable.soal_spidol,
+            R.drawable.soal_sprei,
+            R.drawable.soal_stop_kontak,
+            R.drawable.soal_suntikan,
+            R.drawable.soal_tangga,
+            R.drawable.soal_tempat_sampah,
+            R.drawable.soal_topi,
+            R.drawable.soal_tv,
+            R.drawable.soal_vacuum_cleaner,
+            R.drawable.soal_vas_bunga
+
+
+    };
+
+    private int listjawabanbenda[] = {
+            R.drawable.jawaban_ac,
+            R.drawable.jawaban_bak_mandi,
+            R.drawable.jawaban_bantal,
+            R.drawable.jawaban_bantal_guling,
+            R.drawable.jawaban_blender,
+            R.drawable.jawaban_buku,
+            R.drawable.jawaban_buku_absen,
+            R.drawable.jawaban_buku_tulis,
+            R.drawable.jawaban_cermin,
+            R.drawable.jawaban_dasi,
+            R.drawable.jawaban_dispenser,
+            R.drawable.jawaban_ember,
+            R.drawable.jawaban_gantungan_baju,
+            R.drawable.jawaban_garpu,
+            R.drawable.jawaban_gas,
+            R.drawable.jawaban_gayung,
+            R.drawable.jawaban_gelas,
+            R.drawable.jawaban_globe,
+            R.drawable.jawaban_gordyn,
+            R.drawable.jawaban_gunting,
+            R.drawable.jawaban_handphone,
+            R.drawable.jawaban_handuk,
+            R.drawable.jawaban_ijazah,
+            R.drawable.jawaban_ikat_pinggang,
+            R.drawable.jawaban_jadwal_belajar,
+            R.drawable.jawaban_jam,
+            R.drawable.jawaban_jemuran,
+            R.drawable.jawaban_jendela,
+            R.drawable.jawaban_jilbab,
+            R.drawable.jawaban_kabel,
+            R.drawable.jawaban_kain_lap,
+            R.drawable.jawaban_kaos_kaki,
+            R.drawable.jawaban_karpet,
+            R.drawable.jawaban_kasur,
+            R.drawable.jawaban_kemeja,
+            R.drawable.jawaban_kemoceng,
+            R.drawable.jawaban_keyboard,
+            R.drawable.jawaban_kipas_angin,
+            R.drawable.jawaban_kompor,
+            R.drawable.jawaban_komputer,
+            R.drawable.jawaban_kulkas,
+            R.drawable.jawaban_kunci,
+            R.drawable.jawaban_lampu,
+            R.drawable.jawaban_lemari,
+            R.drawable.jawaban_mading,
+            R.drawable.jawaban_mangkuk,
+            R.drawable.jawaban_meja,
+            R.drawable.jawaban_mesin_cuci,
+            R.drawable.jawaban_microwave,
+            R.drawable.jawaban_monitor,
+            R.drawable.jawaban_mouse,
+            R.drawable.jawaban_pagar,
+            R.drawable.jawaban_panci,
+            R.drawable.jawaban_papan_tulis,
+            R.drawable.jawaban_parutan,
+            R.drawable.jawaban_pasta_gigi,
+            R.drawable.jawaban_pel,
+            R.drawable.jawaban_penggaris,
+            R.drawable.jawaban_penggorengan,
+            R.drawable.jawaban_penghapus,
+            R.drawable.jawaban_pensil,
+            R.drawable.jawaban_pensil_warna,
+            R.drawable.jawaban_pintu,
+            R.drawable.jawaban_piring,
+            R.drawable.jawaban_pisau,
+            R.drawable.jawaban_poster,
+            R.drawable.jawaban_printer,
+            R.drawable.jawaban_proyektor,
+            R.drawable.jawaban_pulpen,
+            R.drawable.jawaban_rak_piring,
+            R.drawable.jawaban_ranjang,
+            R.drawable.jawaban_raport,
+            R.drawable.jawaban_rautan_pensil,
+            R.drawable.jawaban_rice_cooker,
+            R.drawable.jawaban_rok,
+            R.drawable.jawaban_sabun,
+            R.drawable.jawaban_saklar,
+            R.drawable.jawaban_sampo,
+            R.drawable.jawaban_sapu,
+            R.drawable.jawaban_selimut,
+            R.drawable.jawaban_sendok,
+            R.drawable.jawaban_sepatu,
+            R.drawable.jawaban_setrika,
+            R.drawable.jawaban_sikat_gigi,
+            R.drawable.jawaban_sisir,
+            R.drawable.jawaban_sofa,
+            R.drawable.jawaban_spatula,
+            R.drawable.jawaban_spidol,
+            R.drawable.jawaban_sprei,
+            R.drawable.jawaban_stop_kontak,
+            R.drawable.jawaban_suntikan,
+            R.drawable.jawaban_tangga,
+            R.drawable.jawaban_tempat_sampah,
+            R.drawable.jawaban_topi,
+            R.drawable.jawaban_tv,
+            R.drawable.jawaban_vacuum_cleaner,
+            R.drawable.jawaban_vas_bunga
+
+    };
+
+    public int[] getListsoalbenda(){
+        return listsoalbenda;
+    }
+
+    public int[] getListjawabanbenda(){
+        return listjawabanbenda;
+    }
+
+    public int getrandombenda() {
+        int rndbenda = new Random().nextInt(listsoalbenda.length);
+        return rndbenda;
+    }
+
+    public int getimagesoalbenda(int i) {
+        return listsoalbenda[i];
+    }
+
+    public int getimagejawabanbenda(int i) {
+        return listjawabanbenda[i];
+    }
+
+    public int getjumlahbenda() {
+        return listsoalbenda.length;
+    }
+
+    public int getjumlahbenda2() {
+        return listjawabanbenda.length;
+    }
+}
+

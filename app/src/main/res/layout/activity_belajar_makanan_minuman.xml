@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".BelajarMakananMinumanActivity">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="390dp"
+        android:layout_height="500dp"
+        android:id="@+id/belajarFrame"
+        android:background="@drawable/belajar_frame_makanan_minuman"/>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="300dp"
+        android:id="@+id/tampilgambarMakananMinuman"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/txtkamus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/judulindonesia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/txtindonesiaMakananMinuman"
+        android:text="Indonesia"/>
+
+    <EditText
+        android:id="@+id/txtindonesiaMakananMinuman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#006aff"
+        android:hint="Hasil suara disini...."
+        android:textColorHint="#006aff"/>
+
+    <Button
+        android:id="@+id/btnTerjemahMakananMinuman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"
+        android:text="Terjemahkan" />
+
+
+    <ImageButton
+        android:id="@+id/btnmicMakananMinuman"
+        android:layout_width="100dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/icon_mic" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/belajar_back_makanan_minuman"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/buttonBack" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/belajar_exit_makanan_minuman"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/buttonExit" />
+
+    <TextView
+        android:id="@+id/nis_menu_belajar_mami"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIS Anda : "/>
+
+</RelativeLayout>

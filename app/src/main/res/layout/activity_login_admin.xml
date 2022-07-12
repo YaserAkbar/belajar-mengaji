@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008577"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="80dp"
+    android:fitsSystemWindows="true"
+    tools:context=".LoginAdminActivity">
+
+    <ImageView
+        android:id="@+id/gambar_admin"
+        android:layout_width="335dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:src="@drawable/login_admin" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilUsernameAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/gambar_admin">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inp_username_admin"
+            android:hint="Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPasswordAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/tilUsernameAdmin"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/colorAccent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inp_password_admin"
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_login_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tilPasswordAdmin"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tilPasswordAdmin"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btn_login_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:backgroundTint="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/login_siswa"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="100dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

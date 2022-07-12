@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".PilihanGandaActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <ImageButton
+            android:id="@+id/hewan"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/hewan" />
+
+        <ImageButton
+            android:id="@+id/kataBenda"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/kata_benda" />
+
+        <ImageButton
+            android:id="@+id/kataSifat"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/kata_sifat" />
+
+        <ImageButton
+            android:id="@+id/kataKerja"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/kata_kerja" />
+
+        <ImageButton
+            android:id="@+id/makananMinuman"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/makanan_minuman" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/buttonBack" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/exit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/buttonExit" />
+
+    <TextView
+        android:id="@+id/nis_menu_kuis_pilgan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIS Anda : "/>
+
+
+
+</RelativeLayout>

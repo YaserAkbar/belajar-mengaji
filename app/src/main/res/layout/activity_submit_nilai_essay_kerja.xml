@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#008577"
+    tools:context=".SubmitNilaiEssayKerjaActivity">
+
+    <ImageView
+        android:id="@+id/gambar_submit_kerja_essay"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/submit_nilai_siswa"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_nis_submit_essay_kerja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gambar_submit_kerja_essay">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etnis_submit_essay_kerja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_nilai_submit_essay_kerja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/til_nis_submit_essay_kerja">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etnilai_submit_essay_kerja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/intent_nilai_essay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skor : 0"
+        android:textAlignment="center"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/btn_submit_kerja_essay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_below="@id/til_nilai_submit_essay_kerja"/>
+
+</RelativeLayout>

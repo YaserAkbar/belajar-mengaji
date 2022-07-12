@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BelajarMengaji</string>
+    <string name="create_account"><font color="#00ff00">text</font></string>
+    <string name="nama">Nama Siswa</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="username">Username</string>
+    <string name="nis">Masukan NIS</string>
+    <string name="register">Register</string>
+    <string name="tambah">Tambah</string>
+    <string name="back_to_login">Kembali ke Login Siswa</string>
+</resources>
